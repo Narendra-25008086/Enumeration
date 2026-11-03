@@ -1,4 +1,4 @@
-<img width="792" height="498" alt="image" src="https://github.com/user-attachments/assets/9450d429-ecb1-45e5-9926-3aa64a800f17" /># Enumeration
+# Enumeration
 Enumeration Techniques
 
 # Explore Google hacking and enumeration 
