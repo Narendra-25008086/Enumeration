@@ -63,6 +63,62 @@ link: This operator allows you to search for pages that link to a specific URL. 
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
+#DNS Enumeration
+
+
+##DNS Recon
+provides the ability to perform:
+Check all NS records for zone transfers
+Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
+Perform common SRV Record Enumeration
+Top level domain expansion
+## OUTPUT:
+<img width="957" height="1018" alt="image" src="https://github.com/user-attachments/assets/2346be61-3324-4947-9050-d6d9571a8198" />
+
+
+
+##dnsenum
+
+Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
+
+Get the host’s addresses (A record).
+Get the namservers (threaded).
+Get the MX record (threaded).
+Perform axfr queries on nameservers and get BIND versions(threaded).
+Get extra names and subdomains via google scraping (google query = “allinurl: -www site:domain”).
+Brute force subdomains from file, can also perform recursion on subdomain that have NS records (all threaded).
+Calculate C class domain network ranges and perform whois queries on them (threaded).
+Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
+Write to domain_ips.txt file ip-blocks.
+This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+<img width="947" height="950" alt="image" src="https://github.com/user-attachments/assets/39c5935e-22a1-4bdf-9a70-abe19a3ba3bf" />
+
+##SMTP User Enumeration – smtp-user-enum
+## Create username list and VRFY enumeration
+
+
+<img width="907" height="452" alt="image" src="https://github.com/user-attachments/assets/52d40d96-9a74-493c-8f31-fc646a181537" />
+
+## RCPT enumeration
+
+<img width="827" height="422" alt="image" src="https://github.com/user-attachments/assets/2ee0739f-00cd-46d1-8ad1-d5b48fcc9fbf" />
+
+##EXPN enumeration
+
+<img width="875" height="376" alt="image" src="https://github.com/user-attachments/assets/b437e936-a13e-480d-a65e-54d650a5f12b" />
+
+
+
+##Telnet for SMTP Enumeration
+
+<img width="872" height="420" alt="image" src="https://github.com/user-attachments/assets/e92a6996-f997-4a6f-b18a-dc432c31a4d6" />
+
+
+##Nmap – smtp-enum-users.nse
+
+
+<img width="667" height="232" alt="image" src="https://github.com/user-attachments/assets/8e4831e9-c70b-4a74-abe5-299a50394d09" />
+
 
 
 ## RESULT:
